@@ -9,7 +9,7 @@ class Home extends Component {
 
       
         <main className="main">
-          <img className="mainImg"src="./img/hero-image.jpg" />
+          <img className="mainImg"src="./img/hero-image.jpg" content="width=device-width, initial-scale=1.0" />
         </main>
       
 

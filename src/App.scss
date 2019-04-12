@@ -8,26 +8,43 @@
   background-color: #22073b;
 }
 .logo{
-padding: vw;
-width: 15vw;
+padding: 1vw;
+width: 12vw;
 }
 
 .svg-inline--fa.fa-w-14{
   color: white;
   position: absolute;
   right: 0px;
-  padding: 2px 5px;
-  width: 10px;
+  padding: 2vw;
+  width: 15px;
 }
 .mainImg{
-  // background:  no-repeat center center fixed;
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  // background-size: cover;
-  // background-position: center; 
-  
+  background:no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; 
+  width: 100%
   }
+
+
+
 @media only screen and (max-width: 768px) {
 
+.Navbar{
+  height: auto;
+}
+.logo{
+  padding:2vw;
+  width: 15vw;
+  }
+.mainImg{
+  object-fit: cover;
+  width: 100%;
+  height: 450px
+   }
+  
+   
 }
